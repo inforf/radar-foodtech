@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand brand-footer" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true">RF</span>
+        <span>Radar <strong>Foodtech</strong></span>
+      </a>
+      <p>Tecnologia analisada pelo que entrega na operação real.</p>
+    </div>
+    <div class="footer-links">
+      <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
+      <a href="{{ '/privacidade/' | relative_url }}">Privacidade</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="https://inforf.github.io" target="_blank" rel="noopener">Portfólio de QA</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div>
+      <span>© {{ site.time | date: '%Y' }} Ronaldo Ferreira</span>
+      <span aria-hidden="true"> · </span>
+      <span>Publicado com GitHub Pages</span>
+    </div>
+    <p class="privacy-summary">
+      O site usa Microsoft Clarity somente com sua autorização.
+      <button type="button" class="privacy-settings" data-open-privacy>Privacidade e cookies</button>
+    </p>
+  </div>
+</footer>
+

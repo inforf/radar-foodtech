@@ -1,0 +1,26 @@
+<section class="privacy-panel" role="dialog" aria-modal="true" aria-labelledby="privacy-title" hidden>
+  <div class="privacy-card">
+    <button type="button" class="privacy-close" aria-label="Fechar preferências de privacidade" data-close-privacy>×</button>
+    <span class="eyebrow">Privacidade</span>
+    <h2 id="privacy-title">Privacidade e cookies</h2>
+    <p>O Radar Foodtech utiliza o Microsoft Clarity para entender a navegação, identificar dificuldades e melhorar a experiência.</p>
+    <p>A análise só é ativada quando você autoriza. Cookies publicitários permanecem desativados.</p>
+    <div class="privacy-actions">
+      <button type="button" class="button privacy-secondary" data-consent="rejected">Recusar análise</button>
+      <button type="button" class="button" data-consent="accepted">Aceitar análise</button>
+    </div>
+    <a class="privacy-policy-link" href="{{ '/privacidade/' | relative_url }}">Ler a política de privacidade →</a>
+  </div>
+</section>
+
+<aside class="cookie-banner" aria-label="Preferências de privacidade" hidden>
+  <div>
+    <strong>Privacidade e cookies</strong>
+    <p>Usamos o Microsoft Clarity para analisar a navegação e melhorar o conteúdo. Você decide se permite essa análise.</p>
+  </div>
+  <div class="cookie-actions">
+    <button type="button" class="button privacy-secondary" data-consent="rejected">Recusar</button>
+    <button type="button" class="button" data-consent="accepted">Aceitar</button>
+    <button type="button" class="cookie-details" data-open-privacy>Saiba mais</button>
+  </div>
+</aside>
