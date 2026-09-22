@@ -5,6 +5,8 @@ description: "O que esperar das foodtechs até 2027 — e por que a operação i
 category: Tendências
 reading_time: 8 min de leitura
 takeaway: "O futuro não pertence ao sistema com mais funções, mas ao que integra canais, reduz falhas e continua simples quando a operação aperta."
+image: /assets/img/artigos/cardapio-digital-futuro.jpg
+image_alt: "Ronaldo Ferreira ao lado do título O cardápio digital ainda tem futuro, em uma composição editorial nas cores creme, preto e laranja."
 ---
 
 Durante anos acompanhando sistemas usados por restaurantes, percebi uma diferença importante entre **ter uma funcionalidade** e **entregar valor com ela**.
@@ -129,4 +131,3 @@ O cardápio digital tem futuro. As foodtechs também. Mas o valor não estará e
 - [Open Delivery e padronização das integrações — Abrasel](https://al.abrasel.com.br/noticias/noticias/open-delivery-nova-linguagem-promete-acabar-com-os-problemas-nas-entregas/)
 
 *Este texto é uma análise independente baseada em experiência profissional, observação de mercado e fontes públicas. Não representa recomendação comercial de fornecedores específicos.*
-

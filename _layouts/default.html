@@ -12,6 +12,21 @@
     <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
     <meta property="og:description" content="{{ page.description | default: site.description | strip_html | escape }}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:locale" content="pt_BR">
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    <meta property="og:image:secure_url" content="{{ page.image | absolute_url }}">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta property="og:image:alt" content="{{ page.image_alt | default: page.title | escape }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | escape }}">
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    <meta name="twitter:image:alt" content="{{ page.image_alt | default: page.title | escape }}">
+    {% endif %}
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
     <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
@@ -28,4 +43,3 @@
     {% include privacy-controls.html %}
   </body>
 </html>
-

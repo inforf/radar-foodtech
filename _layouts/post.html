@@ -18,6 +18,12 @@ layout: default
     </div>
   </header>
 
+  {% if page.image %}
+  <figure class="article-cover container">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" width="1200" height="627" fetchpriority="high">
+  </figure>
+  {% endif %}
+
   <div class="container article-grid">
     <aside class="article-aside" aria-label="Sobre a publicação">
       <span class="aside-label">Em uma frase</span>
@@ -37,4 +43,3 @@ layout: default
     <a class="button button-light" href="https://www.linkedin.com/in/ronaldo-ferreira-qa" target="_blank" rel="noopener">Comentar no LinkedIn</a>
   </div>
 </section>
-
