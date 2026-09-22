@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header">
+    <div class="container article-head-inner">
+      <a class="back-link" href="{{ '/' | relative_url }}">← Voltar para o Radar</a>
+      <span class="eyebrow">{{ page.category | default: 'Análise' }}</span>
+      <h1>{{ page.title }}</h1>
+      <p class="article-lead">{{ page.description }}</p>
+      <div class="article-meta">
+        <span>Por <strong>{{ site.author.name }}</strong></span>
+        <span aria-hidden="true">•</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>
+        <span aria-hidden="true">•</span>
+        <span>{{ page.reading_time | default: '6 min de leitura' }}</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container article-grid">
+    <aside class="article-aside" aria-label="Sobre a publicação">
+      <span class="aside-label">Em uma frase</span>
+      <p>{{ page.takeaway }}</p>
+      <a href="https://www.linkedin.com/in/ronaldo-ferreira-qa" target="_blank" rel="noopener">Conversar no LinkedIn →</a>
+    </aside>
+    <div class="prose">{{ content }}</div>
+  </div>
+</article>
+
+<section class="article-cta">
+  <div class="container cta-inner">
+    <div>
+      <span class="eyebrow">Continue a conversa</span>
+      <h2>Qual tecnologia realmente melhora a operação de um restaurante?</h2>
+    </div>
+    <a class="button button-light" href="https://www.linkedin.com/in/ronaldo-ferreira-qa" target="_blank" rel="noopener">Comentar no LinkedIn</a>
+  </div>
+</section>
+

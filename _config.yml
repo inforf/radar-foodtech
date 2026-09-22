@@ -1,0 +1,14 @@
+title: Radar Foodtech
+description: Tecnologia, operação e qualidade no mercado de alimentação.
+url: "https://inforf.github.io"
+baseurl: "/radar-foodtech"
+lang: pt-BR
+author:
+  name: Ronaldo Ferreira
+  url: "https://www.linkedin.com/in/ronaldo-ferreira-qa"
+permalink: /artigos/:title/
+timezone: America/Sao_Paulo
+future: true
+exclude:
+  - README.md
+

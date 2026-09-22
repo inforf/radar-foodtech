@@ -1,0 +1,82 @@
+---
+layout: default
+title: Início
+description: Análises independentes sobre tecnologia, operação e qualidade de software no mercado de alimentação.
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Tecnologia sob teste</span>
+      <h1>O que funciona<br><em>na operação real.</em></h1>
+      <p>Análises independentes sobre foodtech, experiência do cliente e qualidade de software — além da lista de funcionalidades.</p>
+      <div class="hero-actions">
+        {% assign latest = site.posts.first %}
+        {% if latest %}<a class="button" href="{{ latest.url | relative_url }}">Ler a análise mais recente</a>{% endif %}
+        <a class="text-link" href="{{ '/sobre/' | relative_url }}">Conheça o projeto →</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="radar radar-one"></div>
+      <div class="radar radar-two"></div>
+      <div class="signal-card signal-a"><span>01</span> Operação</div>
+      <div class="signal-card signal-b"><span>02</span> Produto</div>
+      <div class="signal-card signal-c"><span>03</span> Qualidade</div>
+    </div>
+  </div>
+</section>
+
+<section class="manifesto">
+  <div class="container manifesto-grid">
+    <span class="section-number">01 / O Radar</span>
+    <p>Uma funcionalidade só tem valor quando resolve um problema sem criar outros. Aqui, tecnologia para alimentação é analisada pela confiabilidade, simplicidade e impacto no trabalho de quem está do outro lado da tela.</p>
+  </div>
+</section>
+
+<section class="latest-section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">Publicações</span>
+        <h2>Análises recentes</h2>
+      </div>
+      <span class="edition-count">{{ site.posts | size }} edição{% if site.posts.size != 1 %}ões{% endif %}</span>
+    </div>
+    <div class="posts-grid">
+      {% for post in site.posts %}
+      <article class="post-card">
+        <div class="post-card-top">
+          <span class="post-category">{{ post.category | default: 'Análise' }}</span>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
+        </div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+        <a class="card-link" href="{{ post.url | relative_url }}">Ler artigo <span aria-hidden="true">↗</span></a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="principles">
+  <div class="container">
+    <span class="section-number">02 / Critérios</span>
+    <div class="principles-grid">
+      <div><strong>Confiabilidade</strong><p>O sistema continua funcionando quando a loja enche?</p></div>
+      <div><strong>Utilidade</strong><p>A função resolve uma dor ou existe apenas na apresentação comercial?</p></div>
+      <div><strong>Experiência</strong><p>Cliente e equipe entendem o fluxo sem treinamento complicado?</p></div>
+      <div><strong>Sustentabilidade</strong><p>A solução consegue evoluir, integrar e se manter saudável?</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-strip">
+  <div class="container strip-inner">
+    <div>
+      <span class="eyebrow">Radar no LinkedIn</span>
+      <h2>Acompanhe as próximas análises.</h2>
+      <p>Novas edições sobre foodtech, qualidade e operação.</p>
+    </div>
+    <a class="button button-light" href="https://www.linkedin.com/in/ronaldo-ferreira-qa" target="_blank" rel="noopener">Seguir Ronaldo no LinkedIn</a>
+  </div>
+</section>
+
