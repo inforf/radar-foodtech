@@ -4,7 +4,7 @@ date: 2026-09-27 01:30:00 -0300
 title: "O pedido foi feito. E se a confirmação não chegar?"
 description: "Uma falha de conexão pode deixar cliente e restaurante sem saber se o pedido entrou. Como desenhar e testar a recuperação desse fluxo?"
 category: Operação sob teste
-image: /assets/img/artigos/capa-pedido-confirmacao.svg
+image: /assets/img/artigos/capa-pedido-confirmacao.png
 image_alt: "Capa editorial com a pergunta sobre a confirmação de um pedido e um celular com símbolo de dúvida."
 reading_time: 6 min de leitura
 takeaway: "Quando a confirmação falha, o sistema precisa mostrar o estado real do pedido e permitir uma recuperação segura."
