@@ -39,7 +39,7 @@ description: Análises independentes sobre tecnologia, operação e qualidade de
         <span class="eyebrow">Publicações</span>
         <h2>Análises recentes</h2>
       </div>
-      <span class="edition-count">{{ site.posts | size }} edição{% if site.posts.size != 1 %}ões{% endif %}</span>
+      <span class="edition-count">{{ site.posts | size }} ediç{% if site.posts.size == 1 %}ão{% else %}ões{% endif %}</span>
     </div>
     <div class="posts-grid">
       {% for post in site.posts %}
