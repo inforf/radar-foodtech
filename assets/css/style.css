@@ -83,7 +83,7 @@ nav a { font-size: 14px; font-weight: 700; text-decoration: none; }
 .post-card-cover { display: block; aspect-ratio: 1200 / 627; overflow: hidden; background: var(--paper); border-bottom: 1px solid var(--line); }
 .post-card-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .post-card-top, .post-card h3, .post-card > p, .post-card > .card-link { margin-left: 28px; margin-right: 28px; }
-.post-card-top { display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.post-card-top { display: flex; justify-content: space-between; gap: 20px; padding-top: 22px; color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .post-card h3 { max-width: 800px; margin-top: 28px; margin-bottom: 14px; font-family: Georgia, serif; font-size: clamp(30px, 3vw, 42px); font-weight: 500; line-height: 1.08; letter-spacing: -.035em; }
 .post-card h3 a { text-decoration: none; }
 .post-card > p { max-width: 710px; margin-top: 0; margin-bottom: 0; color: #514b43; font-size: 16px; }
