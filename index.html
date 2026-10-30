@@ -44,6 +44,11 @@ description: Análises independentes sobre tecnologia, operação e qualidade de
     <div class="posts-grid">
       {% for post in site.posts %}
       <article class="post-card">
+        {% if post.image %}
+        <a class="post-card-cover" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ post.image | relative_url }}" alt="" width="1200" height="627" loading="lazy">
+        </a>
+        {% endif %}
         <div class="post-card-top">
           <span class="post-category">{{ post.category | default: 'Análise' }}</span>
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
