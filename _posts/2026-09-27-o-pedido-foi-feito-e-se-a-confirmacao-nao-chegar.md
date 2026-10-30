@@ -58,4 +58,8 @@ No [primeiro artigo do Radar]({{ '/artigos/o-cardapio-digital-ainda-tem-futuro/'
 
 A pergunta para avaliar um sistema de pedidos não é apenas “o pedido foi enviado?”. É também: **quando algo falha no meio, todos conseguem descobrir o que aconteceu e seguir sem cobrar ou preparar duas vezes?**
 
-*Análise independente baseada em cenários hipotéticos de produto e testes. Não descreve uma ocorrência de um fornecedor específico.*
+### Fontes e método
+
+Esta publicação é uma análise prática baseada em cenários hipotéticos de falha e em princípios de desenho e teste de software. Não apresenta estatísticas de mercado nem descreve um incidente real de fornecedor. Os cenários e indicadores são sugestões para orientar a avaliação de fluxos de pedido; devem ser adaptados à arquitetura e às regras de cada produto.
+
+*Análise independente. Não constitui auditoria, certificação ou avaliação de um fornecedor específico.*
