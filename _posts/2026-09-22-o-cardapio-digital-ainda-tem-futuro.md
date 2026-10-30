@@ -22,7 +22,7 @@ O cardápio digital continuará existindo, mas tende a deixar de ser apenas uma 
 
 Ele está se tornando a entrada de uma operação conectada: recebe o cliente, apresenta produtos, aplica regras comerciais, processa pagamentos, envia informações para a cozinha, atualiza o estoque e alimenta os dados de gestão.
 
-Uma pesquisa divulgada pela Abrasel mostrou que 83% dos estabelecimentos consultados já utilizavam algum software para controlar vendas, 75% usavam ferramentas de controle financeiro e 67% adotavam soluções para delivery. Ou seja, a discussão já não é simplesmente se o restaurante será digital, mas **como todas essas partes conversarão entre si**.
+Uma pesquisa da Abrasel publicada em julho de 2023, realizada com mais de 1.500 empresários do setor em todo o Brasil, informou que 83% dos estabelecimentos respondentes usavam algum software para controlar vendas, 75% utilizavam ferramentas de controle financeiro e 67% adotavam soluções para delivery. Esses números descrevem os participantes daquele levantamento — não devem ser tratados como uma medição atualizada de todo o mercado. A discussão, portanto, não é simplesmente se o restaurante será digital, mas **como todas essas partes conversarão entre si**.
 
 ## O que devemos esperar até 2027
 
@@ -126,7 +126,7 @@ O cardápio digital tem futuro. As foodtechs também. Mas o valor não estará e
 
 ### Fontes e método
 
-As referências abaixo dão contexto às afirmações sobre digitalização, cardápios e integração. Os números citados no texto devem ser lidos conforme a amostra e o período da pesquisa original; as projeções para 2027 são análise editorial, não previsões garantidas.
+As referências abaixo sustentam o contexto sobre digitalização e integração. O dado de adoção de software vem de uma pesquisa da Abrasel publicada em 18 de julho de 2023, com mais de 1.500 empresários. Os percentuais descrevem os respondentes daquela pesquisa, não uma estimativa atualizada para 2026. As projeções para 2027 são análise editorial e devem ser entendidas como cenários possíveis, não previsões garantidas.
 
 - [Bares e restaurantes estão mais digitais na gestão — Abrasel](https://mg.abrasel.com.br/noticias/noticias/bares-e-restaurantes-estao-mais-digitais-na-gestao-e-mais-presentes-nas-redes-sociais-diz-pesquisa-da-abrasel/)
 - [Cardápio digital e experiência do cliente — Abrasel](https://pe.abrasel.com.br/noticias/noticias/cardapio-digital-uma-opcao-tecnologica-de-olho-na-experiencia-do-cliente/)
