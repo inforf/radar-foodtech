@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2026-09-22 09:00:00 -0300
 title: "O cardápio digital ainda tem futuro?"
 description: "O que esperar das foodtechs até 2027 — e por que a operação importa mais que uma lista extensa de funcionalidades."
 category: Tendências
@@ -123,7 +124,9 @@ O cardápio digital tem futuro. As foodtechs também. Mas o valor não estará e
 
 ---
 
-### Fontes consultadas
+### Fontes e método
+
+As referências abaixo dão contexto às afirmações sobre digitalização, cardápios e integração. Os números citados no texto devem ser lidos conforme a amostra e o período da pesquisa original; as projeções para 2027 são análise editorial, não previsões garantidas.
 
 - [Bares e restaurantes estão mais digitais na gestão — Abrasel](https://mg.abrasel.com.br/noticias/noticias/bares-e-restaurantes-estao-mais-digitais-na-gestao-e-mais-presentes-nas-redes-sociais-diz-pesquisa-da-abrasel/)
 - [Cardápio digital e experiência do cliente — Abrasel](https://pe.abrasel.com.br/noticias/noticias/cardapio-digital-uma-opcao-tecnologica-de-olho-na-experiencia-do-cliente/)
