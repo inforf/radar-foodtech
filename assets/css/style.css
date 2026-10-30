@@ -78,14 +78,16 @@ nav a { font-size: 14px; font-weight: 700; text-decoration: none; }
 .section-heading h2, .newsletter-strip h2, .article-cta h2 { margin: 9px 0 0; font-family: Georgia, serif; font-size: clamp(36px, 5vw, 58px); font-weight: 500; letter-spacing: -.04em; line-height: 1.05; }
 .edition-count { color: var(--muted); font-size: 14px; }
 .posts-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
-.post-card { min-height: 340px; display: flex; flex-direction: column; padding: 32px; border: 1px solid var(--line); border-radius: var(--radius); background: white; transition: transform .2s, box-shadow .2s; }
-.post-card:first-child { grid-column: 1 / -1; background: var(--yellow); }
+.post-card { min-width: 0; min-height: 440px; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: white; transition: transform .2s, box-shadow .2s; }
 .post-card:hover { transform: translateY(-4px); box-shadow: 0 14px 35px rgba(23,23,23,.08); }
+.post-card-cover { display: block; aspect-ratio: 1200 / 627; overflow: hidden; background: var(--paper); border-bottom: 1px solid var(--line); }
+.post-card-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.post-card-top, .post-card h3, .post-card > p, .post-card > .card-link { margin-left: 28px; margin-right: 28px; }
 .post-card-top { display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-.post-card h3 { max-width: 800px; margin: 46px 0 16px; font-family: Georgia, serif; font-size: clamp(34px, 4.6vw, 62px); font-weight: 500; line-height: 1.05; letter-spacing: -.04em; }
+.post-card h3 { max-width: 800px; margin-top: 28px; margin-bottom: 14px; font-family: Georgia, serif; font-size: clamp(30px, 3vw, 42px); font-weight: 500; line-height: 1.08; letter-spacing: -.035em; }
 .post-card h3 a { text-decoration: none; }
-.post-card p { max-width: 710px; margin: 0; color: #514b43; font-size: 18px; }
-.card-link { margin-top: auto; padding-top: 28px; font-weight: 850; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.post-card > p { max-width: 710px; margin-top: 0; margin-bottom: 0; color: #514b43; font-size: 16px; }
+.post-card > .card-link { margin-top: auto; margin-bottom: 26px; padding-top: 28px; font-weight: 850; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 
 .principles { padding: 90px 0; border-top: 1px solid var(--line); background: var(--paper); }
 .principles-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 35px; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
@@ -108,7 +110,7 @@ nav a { font-size: 14px; font-weight: 700; text-decoration: none; }
 .article-lead { max-width: 780px; margin: 0; color: #514b43; font-size: clamp(20px, 2.4vw, 27px); line-height: 1.45; }
 .article-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 36px; color: var(--muted); font-size: 14px; }
 .article-cover { margin-top: 48px; margin-bottom: 0; }
-.article-cover img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+.article-cover img { display: block; width: 100%; aspect-ratio: 1200 / 627; object-fit: cover; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
 .article-grid { display: grid; grid-template-columns: 240px minmax(0, 760px); justify-content: center; gap: 80px; padding-block: 82px 110px; }
 .article-aside { position: sticky; top: 110px; align-self: start; padding-top: 18px; border-top: 2px solid var(--accent); }
 .aside-label { color: var(--accent-dark); font-size: 11px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
@@ -279,8 +281,10 @@ body.privacy-open { overflow: hidden; }
   .latest-section, .principles, .page-content { padding-block: 65px; }
   .section-heading { align-items: start; flex-direction: column; }
   .posts-grid { grid-template-columns: 1fr; }
-  .post-card { padding: 24px; min-height: 370px; }
-  .post-card h3 { margin-top: 38px; font-size: 38px; }
+  .post-card { min-height: 0; }
+  .post-card-top, .post-card h3, .post-card > p, .post-card > .card-link { margin-left: 22px; margin-right: 22px; }
+  .post-card h3 { margin-top: 24px; font-size: 34px; }
+  .post-card > .card-link { margin-bottom: 22px; }
   .principles-grid { grid-template-columns: 1fr; }
   .principles-grid > div { border-right: 0; border-bottom: 1px solid var(--line); }
   .principles-grid > div:last-child { border-bottom: 0; }
